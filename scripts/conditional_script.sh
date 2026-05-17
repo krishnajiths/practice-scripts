@@ -7,3 +7,6 @@ if [ "$name" = "Krishnajith" ]; then
 else 
   "Sorry! You are not authorized to access the secret."
 fi
+
+# The conditional script uses an if statement to read the name variable to make sure only the authorized individual can see the secret
+# It is space sensitive | fi signals that the conditional is over
